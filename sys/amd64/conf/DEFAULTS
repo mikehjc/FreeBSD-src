@@ -28,12 +28,3 @@ options 	CC_CUBIC		# include CUBIC congestion control
 options 	NEW_PCIB
 
 options 	NETLINK			# netlink(4) support
-
-device          epair
-device          vxlan
-options         FUSEFS
-options         VIMAGE
-makeoptions     WITH_EXTRA_TCP_STACKS=1
-options         TCPHPTS
-options         RATELIMIT
-options         ACCEPT_FILTER_HTTP
